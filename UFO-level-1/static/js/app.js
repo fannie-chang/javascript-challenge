@@ -1,4 +1,5 @@
-
+// from data.js
+var tableData = data;
 
 // Get a reference to the table body
 
@@ -31,7 +32,7 @@ function runEnter() {
 //console.log(data);
 
 		
-	var filteredData = data.filter(data => data.datetime === inputValue);
+	var filteredData = tableData.filter(tableData => tableData.datetime === inputValue);
 
 	filteredData.forEach(function(UFOSightings)  {
 
@@ -51,16 +52,3 @@ function runEnter() {
 	});
 
 }
-
-
-	
-
-	
-
-
-	
-
-
-
-
-
