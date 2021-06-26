@@ -29,7 +29,7 @@ function runEnter() {
 	var inputValue = inputElement.property("value");
 
 //console.log(inputValue);
-//console.log(data);
+//console.log(tableData);
 
 		
 	var filteredData = tableData.filter(tableData => tableData.datetime === inputValue);
