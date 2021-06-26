@@ -5,7 +5,7 @@ var tableData = data;
 
 var tbody = d3.select("tbody");
 
-// Select the button/Users/fanniechang/Desktop/javascript-essential-training-2832077-main/07_03/script.js
+// Select the button
 var button = d3.select("#filter-btn");
 
 // Select the form
@@ -42,15 +42,8 @@ function runEnter() {
 
 	tableData.getElementById('submit').onclick = function() {
     var select = tableData.getElementById('#city');
-    var selected = [...select.selectedOptions]
-                    .map(option => option.value);
-    alert(selected);
+    
 }
-	
-
-
-
-
 		
 	var filteredData = tableData.filter(tableData => tableData.datetime === inputValue);
 	var filteredData = tableData.filter(tableData => tableData.city === inputValue);

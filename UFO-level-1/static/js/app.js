@@ -40,13 +40,12 @@ function runEnter() {
 
 	Object.entries(UFOSightings).forEach(function([key,value])  {
 		console.log(key,value);
-
-		
+	
 		var cell =row.append("td");
 				
 		cell.text(value);
-
-
+	
+	
 	});
 
 	});
